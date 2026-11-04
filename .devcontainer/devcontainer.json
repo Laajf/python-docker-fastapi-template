@@ -1,0 +1,13 @@
+{
+  "name": "Python Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "astral-sh.ruff"
+      ]
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt"
+}
